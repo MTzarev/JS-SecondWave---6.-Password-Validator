@@ -5,7 +5,6 @@ function passwordValidator(input) {
     let lettersEnd1 = 90;
     let lettersStart2 = 97;
     let lettersEnd2 = 122;
-
     let newPassArr = [];
     let errorArr = [];
     let digitCount = 0;
