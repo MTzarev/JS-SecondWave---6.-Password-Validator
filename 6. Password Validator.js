@@ -1,10 +1,13 @@
 function passwordValidator(input) {
     let startNum = 48;
     let endNum = 57;
+    
     let lettersStart1 = 65;
     let lettersEnd1 = 90;
+    
     let lettersStart2 = 97;
     let lettersEnd2 = 122;
+    
     let newPassArr = [];
     let errorArr = [];
     let digitCount = 0;
@@ -21,7 +24,6 @@ function passwordValidator(input) {
         if ((char>=startNum && char<=endNum)){
             digitCount++;
         }
-        
     }
     let isValid=true;
     if (errorArr.length > 0) {
@@ -38,9 +40,7 @@ function passwordValidator(input) {
     }
 if (isValid===true){
     console.log(`Password is valid`);
-    
 }
     console.log(digitCount);
-
 }
 passwordValidator('Miro123')
