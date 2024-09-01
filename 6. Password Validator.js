@@ -3,7 +3,6 @@ function passwordValidator(input) {
     let endNum = 57;
     let lettersStart1 = 65;
     let lettersEnd1 = 90;
-
     let lettersStart2 = 97;
     let lettersEnd2 = 122;
 
