@@ -10,7 +10,6 @@ function passwordValidator(input) {
     let digitCount = 0;
     let pass = input.split(``);
     for (let i = 0; i < pass.length; i++) {
-
         let char = pass[i].charCodeAt(0);
         if ((char >= startNum && char <= endNum) ||
             (char >= lettersStart1 && char <= lettersEnd1) ||
